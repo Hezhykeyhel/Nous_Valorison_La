@@ -67,18 +67,7 @@
     color: rgba(0,0,0,0.4);
     cursor: pointer;
 }
-/* .cartlogo_badge{
-    background: #f4f4f4;
-    padding: 3px;
-    color: #000;
-    border-radius: 50px;
-    width: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-    margin-left: 5px;
-} */
+
 .hamburger_menu{
     width: 35px;
     height: 20px;
@@ -95,7 +84,7 @@
     background: #000;
 }
 .hamburger_menu:hover > div{
-    background:#dd219e;
+    background:rgb(194, 24, 53);;
     transition: .4s all ease-in;
 }
 @media (max-width: 900px){

@@ -6,6 +6,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
+.nous, .valor{
+    color: rgb(194, 24, 53);
+}
 @media only screen and (max-width: 700px){
     .heroSection{
         grid-template-columns: repeat(1, 1fr);
@@ -17,8 +20,13 @@
 }
 @media only screen and (max-width: 700px){
     .left_container{
-        padding: 2em;
+        padding-right: 4em;
+        padding-left: 4em;
     }
+    .valor, .nous{
+        font-size: 18px;
+    }
+
 }
 .left_contents{
     text-align: justify;
@@ -29,11 +37,11 @@
     border-radius: 5px;
     margin-top: 20px;
     color: rgb(219, 62, 88);
-    background: pink;
+    background: rgb(255, 217, 225);
 }
 .savoir_btn:hover{
     cursor: pointer;
-    background: #fcfcfc;
+    background: #fcebeb;
     transition: all ease-in-out .4s;
     transform: translateX(5px);
 

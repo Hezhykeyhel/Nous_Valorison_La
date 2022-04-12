@@ -16,11 +16,11 @@ const HeroSection = () => {
             <Fade>
             <div className="left_container">
                 <div className="left_contents">
-                <h3>NOUS VALORISONS LA</h3><br/>
-                <h1>CLARTE <i className='fas fa-chevron-right'></i></h1><br/><br/>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                <h3 className="nous">NOUS VALORISONS LA</h3><br/>
+                <h1 className="valor">CLARTE <i className='fas fa-chevron-right'></i></h1><br/><br/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. utenim ad minim venaim, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <button className="savoir_btn">En savoir plus</button>
                 </div>
