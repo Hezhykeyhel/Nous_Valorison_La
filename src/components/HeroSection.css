@@ -1,0 +1,38 @@
+.heroSection{
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to bottom,#fcfcfc 37%, pink);
+    flex-direction: row;
+}
+@media only screen and (max-width: 600px){
+    .heroSection{
+        flex-direction: column;
+    }
+}
+.left_container{
+    padding: 4em;
+    width: 100%;
+}
+.savoir_btn{
+    padding: 10px 40px;
+    border:1px solid rgb(194, 24, 53);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: rgb(219, 62, 88);
+    background: pink;
+}
+.savoir_btn:hover{
+    cursor: pointer;
+    background: #fcfcfc;
+    transition: all ease-in-out .4s;
+    transform: translateX(5px);
+
+}
+ /* Styling Our Right Container */
+
+.right_container{
+    width: 100%;
+}
+.right_contents img{
+    width: 100%;
+}

@@ -1,0 +1,53 @@
+.service_section{
+    width: 100%;
+    padding: 4em;
+}
+h3, h1{
+    color: rgb(61, 61, 133);
+}
+.services_grid_container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    overflow-x: hidden;
+    color:#fff;
+}
+@media only screen and (max-width: 900px){
+    .services_grid_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 768px){
+    .services_grid_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .services_grid_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.services_grid_container > div {
+    width:100%;
+    padding: 3em;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.services_grid_container > div:hover{
+    transform: translateY(-5px);
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+.copropriete{
+    background:rgb(61, 61, 133);
+}
+.planification{
+    background: rgb(141, 71, 20);
+}
+.immobilier{
+    background:brown;
+}
