@@ -1,17 +1,27 @@
 .heroSection{
     width: 100%;
-    display: flex;
+    display: grid;
+    padding-top:100px;
     background: linear-gradient(to bottom,#fcfcfc 37%, pink);
-    flex-direction: row;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     .heroSection{
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 .left_container{
     padding: 4em;
     width: 100%;
+}
+@media only screen and (max-width: 700px){
+    .left_container{
+        padding: 2em;
+    }
+}
+.left_contents{
+    text-align: justify;
 }
 .savoir_btn{
     padding: 10px 40px;
@@ -33,6 +43,7 @@
 .right_container{
     width: 100%;
 }
-.right_contents img{
+.right_img{
     width: 100%;
 }
+

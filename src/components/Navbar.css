@@ -1,6 +1,10 @@
 .navbar{
     width: 100% !important;
     background: #fcfcfc;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,13 +57,15 @@
     align-items: center;
     margin-left: 5px;
 }
-.cart_link{
+.nav_link{
     padding: 10px;
     border-radius: 8px;
+    text-transform: uppercase;
 }
-.cart_link:hover{
+.nav_link:hover{
     transition: all ease-in .4s;
     color: rgba(0,0,0,0.4);
+    cursor: pointer;
 }
 /* .cartlogo_badge{
     background: #f4f4f4;

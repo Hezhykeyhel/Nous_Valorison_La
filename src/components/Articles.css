@@ -17,6 +17,8 @@
 }
 .articles_grid_container:hover{
     transform: translateY(-3px);
+    transition: all ease-in-out .3s;
+    cursor: pointer;
 }
 .date{
     display: flex;

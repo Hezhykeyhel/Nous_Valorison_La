@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import logo from '../assets/logo.png'
 
 const Navbar = ({click}) => {
@@ -11,31 +11,11 @@ const Navbar = ({click}) => {
             </div>
             {/* {links} */}
             <ul className="navbar_links">
-                <li>
-                    <Link to="/" className="cart_link">
-                        <span>A PROPOS</span>
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/" className="cart_link">
-                        <span>NOS SERVICES</span>
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/" className="cart_link">
-                        <span>ARTICLES</span>
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/" className="cart_link">
-                        <span>CONTACT</span>
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/" className="cart_link">
-                        <span>EN</span>
-                    </Link>
-                </li>
+            <li><Link to='home' className="nav_link" spy={true} offset={-100} duration={500}>A propos</Link></li>
+            <li><Link to='services' className="nav_link" spy={true} offset={0} duration={500}>Nos Services</Link></li>
+            <li><Link to='articles' className="nav_link" spy={true} offset={10} duration={500}>Articles</Link></li>
+            <li><Link to='footer' className="nav_link" spy={true} offset={-50} duration={500}>Contact</Link></li>
+            <li><Link to='footer' className="nav_link" spy={true} offset={-50} duration={500}>EN</Link></li>
             </ul>
             {/* {Hamburger-Menu} */}
             <div className="hamburger_menu" onClick={click}>
