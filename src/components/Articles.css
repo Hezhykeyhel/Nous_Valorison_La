@@ -26,7 +26,7 @@
 .immobile{
     margin-left: 20px;
 }
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1000px){
     .articles_container{
         grid-template-columns: repeat(2, 1fr);
     }
